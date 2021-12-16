@@ -25,5 +25,8 @@ git clone -b arm https://github.com/IsaacMvmv/Glibc_updated .glibc
 # Using:
 You can use it with this command: ```LD_LIBRARY_PATH=~/.glibc/lib:$LD_LIBRARY_PATH LD_PRELOAD=~/.glibc/lib/libc.so.6 %command%```
 
-But maybe its annoying, and you may need a script which does that, then add in your ~/.bashrc/.zshrc etc... ```alias glc='LD_LIBRARY_PATH=~/.glibc/lib:$LD_LIBRARY_PATH LD_PRELOAD=~/.glibc/lib/libc.so.6'```
-After restarting terminal you should do ```glc %command%
+But maybe its annoying, and you may need a script which does that, then add in your ~/.bashrc/.zshrc etc...
+```alias glc='LD_LIBRARY_PATH=~/.glibc/lib:$LD_LIBRARY_PATH LD_PRELOAD=~/.glibc/lib/libc.so.6'```
+After restarting terminal you should do     ```glc %command%```
+
+Enjoy! :D
