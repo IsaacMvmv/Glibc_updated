@@ -1,5 +1,5 @@
 # Glibc_updated
-Updated glibc libs for arm, arm64 & x86_64
+2.31 glibc libs for arm, arm64 & x86_64
 
 
 # Install
